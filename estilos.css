@@ -3,16 +3,35 @@ font-family: verdana;
 }
 
 #container {
-
+	width: 970px;
+	margin: 0 auto;
 }
 #masthead {
 	padding:0px;
-	margin:auto;
-	width:500px;
+	/*width:500px;*/
+	margin: 0 auto;
 	font-family:Arial, Helvetica, sans-serif;
-
+	background-color: chocolate;
 }
 ul, ol {
 	list-style:none;
+	margin: 0px;
 }
-			
+.logo {
+	float: left;
+	/*background-color: blue;*/
+}
+.titulo1 {
+	/*width: 600px;*/
+	background-color: antiquewhite;
+	height: 150px;
+	font-size: 80px;
+	text-align: center;
+}
+.titulo1 p {
+	padding: 20px;
+	margin: 0px;
+}
+.menu {
+	background-color: bisque;
+}
