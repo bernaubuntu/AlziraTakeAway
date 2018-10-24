@@ -1,5 +1,6 @@
 ﻿body {
-font-family: verdana;
+	font-family: verdana;
+    background-image: url(imagenes/fondoweb.png);
 }
 
 #container {
