@@ -20,6 +20,7 @@ ul, ol {
 }
 #footer {
 	clear: both;
+	background-color: blanchedalmond;
 }
 .logo {
 	float: left;
@@ -38,4 +39,29 @@ ul, ol {
 }
 .menu {
 	background-color: bisque;
+}
+
+.copyrigth {
+	background-color: cyan;
+    max-width: 80%;
+    display: inline-flex;
+}
+.copyrigth p {
+    font-style: italic;
+    font-size: small;
+    min-height: 100px;
+    padding-top: 20px;
+}
+
+.autores {
+    background-color: aquamarine;
+    float: right;
+    min-width: 20%;
+    max-width: 20%;
+}
+.autores p {
+    line-height: 10px;
+    font-size: small;
+    padding: 10px 5px 5px 5px;
+    margin: 0px;
 }
