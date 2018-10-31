@@ -1,0 +1,40 @@
+﻿/*.minislide {width:100%; height:0px; padding-bottom: 50%; overflow:hidden; position:relative; }*/
+
+.minislider {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.minislider{
+  width: 100%;
+  height: 0px;
+  padding-bottom: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.minislider img {
+  position: absolute;
+  animation: minislider 40s infinite;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes minislider {25%{opacity: 1;} 40%{opacity: 0;}
+}
+.minislider img:nth-child(4){
+  animation-delay: 0s;
+}
+.minislider img:nth-child(3){
+  animation-delay: 10s;
+}
+.minislider img:nth-child(2){
+  animation-delay: 20s;
+}
+.minislider img:nth-child(1){
+  animation-delay: 30s;
+}
+ 
