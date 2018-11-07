@@ -37,6 +37,13 @@ ul, ol {
 	font-size: 80px;
 	text-align: center;
 }
+.titulo2 {
+	/*width: 600px;*/
+	background-color: antiquewhite;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+}
 .titulo1 p {
 	padding: 20px;
 	margin: 0px;
